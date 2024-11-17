@@ -1,0 +1,84 @@
+// app global css in SCSS form
+.bg-gradient-primary {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.12),
+    rgb(93 189 235)
+  );
+}
+.bg-gradient-secondary {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.12),
+    rgb(93, 235, 215)
+  );
+}
+.bg-gradient-danger {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.12),
+    rgb(235 93 139)
+  );
+}
+.bg-gradient-green {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.12), #4c8124);
+}
+.bg-gradient-dark {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.12),
+    rgb(70 106 123)
+  );
+}
+.bg-gradient-warning {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.12),
+    rgb(189 130 56)
+  );
+}
+.pricing-badge {
+  display: block;
+  font-size: 15px;
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.pricing-badge .badge {
+  background: #ffffff;
+  color: #5156be;
+  float: right;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  padding: 7px 10px;
+  position: relative;
+  right: -67px;
+  text-align: center;
+  top: 17px;
+  transform: rotate(45deg);
+  width: 200px;
+}
+.badge {
+  --bs-badge-padding-x: 0.4em;
+  --bs-badge-padding-y: 0.25em;
+  --bs-badge-font-size: 0.75em;
+  --bs-badge-font-weight: 700;
+  --bs-badge-color: #fff;
+  --bs-badge-border-radius: var(--bs-border-radius);
+  border-radius: var(--bs-badge-border-radius);
+  color: var(--bs-badge-color);
+  display: inline-block;
+  font-size: var(--bs-badge-font-size);
+  font-weight: var(--bs-badge-font-weight);
+  line-height: 1;
+  padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+  text-align: center;
+  // vertical-align: initial;
+  white-space: nowrap;
+}
